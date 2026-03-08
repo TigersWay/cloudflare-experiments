@@ -4,8 +4,10 @@ Dependencies:
 
 - ![Svelte](https://img.shields.io/github/package-json/dependency-version/tigersway/cloudflare-experiments/dev/svelte)
 - ![vite](https://img.shields.io/github/package-json/dependency-version/tigersway/cloudflare-experiments/dev/vite)
+- ![itty-router](https://img.shields.io/github/package-json/dependency-version/tigersway/cloudflare-experiments/itty-router)
 
 ## CHANGELOG
 
 - **v0.0.0** 2026-03-08 _Let's start again_
   - Vite & Svelte on Cloudflare Workers
+  - Not without a simple worker

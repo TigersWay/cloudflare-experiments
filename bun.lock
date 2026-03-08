@@ -4,10 +4,13 @@
   "workspaces": {
     "": {
       "name": "cloudflare-experiments",
+      "dependencies": {
+        "itty-router": "^5.0.23",
+      },
       "devDependencies": {
         "@cloudflare/vite-plugin": "^1.26.1",
-        "@sveltejs/vite-plugin-svelte": "^6.2.1",
-        "svelte": "^5.45.2",
+        "@sveltejs/vite-plugin-svelte": "^6.2.4",
+        "svelte": "^5.53.7",
         "vite": "^7.3.1",
         "wrangler": "^4.71.0",
       },
@@ -247,6 +250,8 @@
     "fsevents": ["fsevents@2.3.3", "", { "os": "darwin" }, "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="],
 
     "is-reference": ["is-reference@3.0.3", "", { "dependencies": { "@types/estree": "^1.0.6" } }, "sha512-ixkJoqQvAP88E6wLydLGGqCJsrFUnqoH6HnaczB8XmDH1oaWU+xxdptvikTgaEhtZ53Ky6YXiBuUI2WXLMCwjw=="],
+
+    "itty-router": ["itty-router@5.0.23", "", {}, "sha512-i49WU+SNPrwOZA4Z61En1RYd5h2Lcqa+5IvCpMrNi4dxymzJK15ozUUnRrWIUAv95Zamd4eJPAot2UvHRrQg7w=="],
 
     "kleur": ["kleur@4.1.5", "", {}, "sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ=="],
 
