@@ -1,0 +1,23 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ *
+ * cSpell:disable
+ */
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cloudflare-experiments",
+
+  // "main": "worker/index.js",
+  "compatibility_date": "2026-03-08",
+  "compatibility_flags": ["nodejs_compat"],
+
+  "observability": { "enabled": true },
+
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./public",
+    "not_found_handling": "single-page-application"
+    // "run_worker_first": []
+  }
+}
