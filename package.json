@@ -1,0 +1,23 @@
+{
+  "name": "cloudflare-experiments",
+  "description": "Cloudflare Workers experiments",
+  "keywords": [
+    "cloudflare",
+    "cloudflare-workers",
+    "itty-router"
+  ],
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Ben Michaud <ben@tigersway.net>",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.16.9",
+    "vitest": "~4.1.7",
+    "wrangler": "^4.94.0"
+  }
+}
