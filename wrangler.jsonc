@@ -8,18 +8,22 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "cloudflare-experiments",
   "main": "worker/index.js",
-  "compatibility_date": "2026-05-23",
+  "compatibility_date": "2026-05-28",
   "compatibility_flags": ["nodejs_compat"],
 
   "assets": {
     "directory": "./public",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
-    "run_worker_first": ["/worker"]
+    "run_worker_first": ["/worker", "/__sched*"]
   },
 
   "observability": { "enabled": true },
-  "upload_source_maps": true
+  "upload_source_maps": true,
+
+  "triggers": { "crons": ["0 * * * *"] }, // Every hour
+
+  "secrets": { "required": ["NTFY_SERVER", "NTFY_TOPIC"] }
 
   /**
    * Smart Placement

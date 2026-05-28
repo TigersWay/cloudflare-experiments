@@ -1,8 +1,8 @@
 {
-	"npm.packageManager": "bun",
-	"cSpell.words": [],
+  "npm.packageManager": "bun",
+  "cSpell.words": ["ntfy"],
 
-	"files.associations": {
-		"wrangler.json": "jsonc"
-	}
+  "files.associations": {
+    "wrangler.json": "jsonc"
+  }
 }

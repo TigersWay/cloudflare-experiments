@@ -11,6 +11,6 @@ public/
 .wrangler/
 .env*
 !.env.example
-
+.dev.vars*
 
 !gitkeep

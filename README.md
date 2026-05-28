@@ -7,6 +7,10 @@ Dependencies:
 
 ## CHANGELOG
 
+- **v0.0.2** 2026-05-25 _Scheduled_
+  - notify (ntfy)
+  - [Scheduled handler](https://developers.cloudflare.com/workers/runtime-apis/handlers/scheduled/) can't be tested [yet](https://github.com/cloudflare/workers-sdk/issues/9882) but working in prod!
+
 - **v0.0.1** 2026-05-24 _Vite_
   - itty-router
   - vite & @cloudflare/vite-plugin

@@ -7,23 +7,25 @@
     "itty-router",
     "vite"
   ],
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "Ben Michaud <ben@tigersway.net>",
   "type": "module",
   "scripts": {
     "dev": "vite dev",
+    "dev (Scheduled)": "wrangler dev --test-scheduled",
     "build": "vite build",
     "preview": "bun run build && vite preview",
+    "secrets": "wrangler secret bulk .dev.vars",
     "deploy": "bun run build && wrangler deploy",
     "test": "vitest"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "^1.38.0",
-    "@cloudflare/vitest-pool-workers": "^0.16.9",
+    "@cloudflare/vite-plugin": "^1.39.0",
+    "@cloudflare/vitest-pool-workers": "^0.16.10",
     "vite": "^8.0.14",
     "vitest": "~4.1.7",
-    "wrangler": "^4.94.0"
+    "wrangler": "^4.95.0"
   },
   "dependencies": {
     "itty-router": "^5.0.23"
