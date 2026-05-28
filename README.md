@@ -3,7 +3,7 @@
 Dependencies:
 
 - ![@cloudflare/vite-plugin](https://img.shields.io/github/package-json/dependency-version/tigersway/cloudflare-experiments/dev/@cloudflare/vite-plugin)
-- ![itty-router](https://img.shields.io/github/package-json/dependency-version/tigersway/cloudflare-experiments/dev/itty-router)
+- ![itty-router](https://img.shields.io/github/package-json/dependency-version/tigersway/cloudflare-experiments/itty-router)
 
 ## CHANGELOG
 
