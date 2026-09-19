@@ -1,0 +1,17 @@
+{
+	"npm.packageManager": "bun",
+	"cSpell.words": ["iconify", "oklch", "shadcn", "wght"],
+
+	"files.associations": {
+		"*.css": "tailwindcss",
+		"wrangler.json": "jsonc"
+	},
+
+	"material-icon-theme.folders.associations": {
+		"en": "../../../../icons/en",
+		"es": "../../../../icons/es",
+		"fr": "../../../../icons/fr",
+		"th": "../../../../icons/th",
+		"worker": "../../../icons/folder-cloudflare"
+	}
+}
